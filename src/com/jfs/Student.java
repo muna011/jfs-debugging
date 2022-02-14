@@ -19,31 +19,38 @@ public class Student {
 
 
     public String getName() {
-        return email;
+
+        return name;
     }
     public void setName(String name) {
+
         this.name = name;
     }
 
     public String getEmail() {
+
         return email;
     }
     public void setEmail(String email) {
+
         this.email = email;
     }
 
 
     public LocalDate getDob() {
-        return gpa;
+        return dob;
     }
     public void setDob(LocalDate dob) {
+
         this.dob = dob;
     }
 
     public float getGpa() {
+
         return gpa;
     }
     public void setGpa(float gpa) {
+
         this.gpa = gpa;
     }
 }
